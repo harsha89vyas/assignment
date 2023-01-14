@@ -1,0 +1,8 @@
+<div
+    [ngClass]="message.participantId === currentParticipant.id ? 'message-body green-background' : 'message-body blue-background'">
+    <div class="message-header">
+        <div> {{participants.get(message.participantId)?.name}}</div>
+        <div>{{message.createdDate | date:'medium'}}</div>
+    </div>
+    <div class="message-text">{{message.text}}</div>
+</div>

@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{2101F8B0-9B4D-4EAF-BF8B-BEDB572E4E55}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Chat.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Chat.Api/Properties/launchSettings.json">
+    <Files>
+      <File FileName="Chat.Api/Controllers/ChatController.cs" Line="22" Column="44" />
+      <File FileName="Chat.Api/Program.cs" Line="9" Column="39" />
+      <File FileName="Chat.Business/Class1.cs" Line="1" Column="1" />
+      <File FileName="Chat.Entities/Room.cs" Line="11" Column="46" />
+      <File FileName="Chat.Entities/Message.cs" Line="10" Column="35" />
+      <File FileName="Chat.Shared/Entities/BaseEntity.cs" Line="13" Column="1" />
+      <File FileName="Chat.Entities/Participant.cs" Line="9" Column="10" />
+      <File FileName="Chat.Repositories/MessageRepository.cs" Line="20" Column="6" />
+      <File FileName="Chat.Repositories/ChatDBContext.cs" Line="12" Column="10" />
+      <File FileName="Chat.Repositories/Interfaces/IMessageRepository.cs" Line="6" Column="37" />
+      <File FileName="Chat.Repositories/Interfaces/IRoomRepository.cs" Line="9" Column="26" />
+      <File FileName="Chat.Repositories/Interfaces/IParticipantRepository.cs" Line="9" Column="56" />
+      <File FileName="Chat.Repositories/ParticipantRepository.cs" Line="6" Column="65" />
+      <File FileName="Chat.Shared/EF/BaseRepository.cs" Line="8" Column="45" />
+      <File FileName="Chat.Shared/EF/Interfaces/IBaseRepository.cs" Line="6" Column="3" />
+      <File FileName="Chat.Repositories/RoomRepository.cs" Line="8" Column="55" />
+      <File FileName="Chat.Api/Controllers/RoomController.cs" Line="20" Column="1" />
+      <File FileName="Chat.Api/Properties/launchSettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Chat.Api" expanded="True">
+            <Node name="Chat.Api" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Chat.Business" expanded="True" />
+            <Node name="Chat.Entities" expanded="True" />
+            <Node name="Chat.Repositories" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+            <Node name="Chat.Shared" expanded="True">
+              <Node name="EF" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/harshavyaspalli/Code/Ori Interview/API/Chat.Api/Chat.Api/Controllers/RoomController.cs" relfile="Chat.Api/Controllers/RoomController.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

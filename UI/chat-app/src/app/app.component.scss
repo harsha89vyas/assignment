@@ -1,0 +1,11 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0 12px;
+    align-items: center;
+}

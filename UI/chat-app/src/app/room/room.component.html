@@ -1,0 +1,19 @@
+<div class="room-body">
+    <div >
+        <div *ngFor="let message of room.messages">
+            <chat-message [message]="message"></chat-message>
+        </div>
+    </div>
+    <div class="room-text">
+        <div>
+            <mat-form-field>
+                <mat-label>Message</mat-label>
+                <textarea matInput placeholder="Message" [formControl]="messageInput"></textarea>
+            </mat-form-field>
+        </div>
+        <div>
+            <button type="button" mat-raised-button color="primary" (click)="sendMessage($event)"
+                [disabled]="!messageInput.value?.length">Send</button>
+        </div>
+    </div>
+</div>

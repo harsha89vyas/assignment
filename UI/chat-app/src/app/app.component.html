@@ -1,0 +1,29 @@
+<div class="flex-column">
+  <div class="flex-row">
+    <mat-form-field appearance="fill">
+      <mat-label>Chat Room</mat-label>
+      <input type="text" placeholder="Pick or enter a new chat room" aria-label="Chat Room" matInput [formControl]="roomNameInput"
+        [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" autoActiveFirstOption>
+        <mat-option *ngFor="let room of filteredRooms | async" [value]="room">
+          {{room.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="createRoom($event)">New Chat Room</button>
+  </div>
+  <div class="flex-row">
+    <mat-form-field appearance="fill">
+      <mat-label>Your Name</mat-label>
+      <input type="text" placeholder="Enter your name and join" aria-label="Your Name" matInput
+        [formControl]="participantNameInput">
+
+    </mat-form-field>
+    <button type="button" mat-raised-button color="primary" (click)="joinRoom($event)">Join</button>
+  </div>
+  <div *ngIf="joinedRoom">
+    <chat-room [room]="joinedRoom"></chat-room>
+  </div>
+
+</div>
+<router-outlet></router-outlet>
